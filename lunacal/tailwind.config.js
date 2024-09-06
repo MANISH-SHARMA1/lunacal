@@ -10,6 +10,7 @@ module.exports = {
         "custom-3": "13.49px 16.87px 67.47px 8.43px rgba(10, 10, 10, 1)",
         "custom-4": "-8.43px -16.87px 50.6px -16.87px rgba(72, 91, 113, 1)",
         "custom-5": "5.67px 5.67px 3.78px 0px rgba(0, 0, 0, 0.4)",
+        "custom-6": "0px 4px 4px 0px rgba(0, 0, 0, 0.33)",
       },
       gap: {
         "custom-105": "105px",

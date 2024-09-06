@@ -26,9 +26,9 @@ function Gallery() {
   }
 
   return (
-    <div className="flex gap-5 bg-gray-600 p-6 rounded-xl shadow-custom-5">
+    <div className="flex gap-5 bg-[linear-gradient(180deg,rgba(40,40,40,0.1)0%,rgba(248,248,248,0.1)100%),linear-gradient(0deg,rgba(255,255,255,0.05),rgba(255,255,255,0.05))] p-6 rounded-xl shadow-custom-5">
       <div className="flex flex-col gap-custom-105">
-        <p className="border border-gray-400 text-gray-400 rounded-full size-3 p-1 text-xs font-medium flex justify-center items-center">
+        <p className="border border-gray-400 text-gray-400 rounded-full size-4 p-1 text-sm font-medium flex justify-center items-center">
           ?
         </p>
         <div className="grid grid-cols-2 gap-0.5">
@@ -55,7 +55,7 @@ function Gallery() {
             />
             <label
               htmlFor="img"
-              className="bg-gray-700 p-3 rounded-full w-32 shadow-custom-1 text-center cursor-pointer"
+              className="bg-gray-700 p-3 rounded-full w-32 shadow-custom-2 text-center cursor-pointer"
             >
               + ADD IMAGE
             </label>

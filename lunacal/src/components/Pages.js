@@ -51,9 +51,9 @@ function Pages() {
   };
 
   return (
-    <div className="flex gap-5 text-gray-300 bg-gray-600 text-[rgba(150,150,150,1)] p-6 rounded-xl shadow-custom-5">
+    <div className="flex gap-5 text-gray-300 bg-[linear-gradient(180deg,rgba(40,40,40,0.1)0%,rgba(248,248,248,0.1)100%),linear-gradient(0deg,rgba(255,255,255,0.05),rgba(255,255,255,0.05))] text-[rgba(150,150,150,1)] p-6 rounded-xl shadow-custom-5">
       <div className="flex flex-col gap-custom-105">
-        <p className="border border-gray-400 text-gray-400 rounded-full size-3 p-1 text-xs flex justify-center items-center">
+        <p className="border border-gray-400 text-gray-400 rounded-full size-4 p-1 text-sm flex justify-center items-center">
           ?
         </p>
         <div className="grid grid-cols-2 gap-0.5">
